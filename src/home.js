@@ -8,7 +8,7 @@ export default function home() {
         <h2>make deals : eat meals</h2>
         <div class="testimonial">
           <blockquote>
-            "I'm at Business Foods. I don't know when I'll be home, okay, I've
+            "I'm at Business Foods. I don't know when I'll be home, okay. I've
             gotta meet a guy about a thing. Just record the recital, okay? I
             will watch it later. "
           </blockquote>

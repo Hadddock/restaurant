@@ -3,7 +3,7 @@ export default function contact() {
   contact.classList.add("tab");
   contact.id = "contact";
   contact.innerHTML = `
-      <h1>Contact Info</h1>
+      <h1>CONTACT</h1>
       <h2>Reach out to us, preferably about business</h2>
       <ul>
         <li>

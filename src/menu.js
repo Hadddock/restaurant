@@ -30,7 +30,7 @@ export default function menu() {
       />
       <div class="vertical-line"></div>
       <div class="item-name">Water (Bottled)</div>
-      <div class="item-description">Offered on entry. It's almost complimentary</div>
+      <div class="item-description">Offered on entry. It's almost complimentary.</div>
       <div class="item-price">0.99</div>
     </div>
     <div class="menu-item">
@@ -40,7 +40,7 @@ export default function menu() {
       />
       <div class="vertical-line"></div>
       <div class="item-name">Basic Food Unit A</div>
-      <div class="item-description">We looked up all the advised nutrients for a single day, bought their equivalent supplements, and compressed them into a cube. In theory it's the perfect meal. </div>
+      <div class="item-description">We looked up all the advised nutrients for a single day, bought their equivalent supplements, and compressed them into a cube. The theoretical healthiest meal. </div>
       <div class="item-price">21.99</div>
     </div>
     <div class="menu-item">

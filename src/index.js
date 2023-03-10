@@ -8,7 +8,7 @@ content.id = "content";
 let currentTab;
 
 const footer = document.createElement("footer");
-footer.innerHTML = `<div>© BUSINESS FOODS ${new Date().getFullYear()}</div>`;
+footer.innerHTML = `<div>© BUSINESS FOODS ${new Date().getFullYear()} </div><div>All icons created by Freepik</div>`;
 
 function selectTab(tab) {
   if (tab.name !== currentTab) {

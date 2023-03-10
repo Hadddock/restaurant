@@ -22,6 +22,7 @@ header {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: rgb(29, 29, 29);
   color: rgb(255, 255, 255);
@@ -184,6 +185,7 @@ footer {
       }
 
       img {
+        justify-self: center;
         align-self: center;
         max-width: 100%;
         grid-area: 1 / 1 / 4 / 2;

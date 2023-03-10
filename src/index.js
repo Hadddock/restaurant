@@ -1,6 +1,6 @@
 import "./style.scss";
 import home from "./home.js";
-import about from "./contact.js";
+import contact from "./contact.js";
 import menu from "./menu.js";
 
 const content = document.createElement("div");
@@ -15,6 +15,7 @@ function selectTab(tab) {
     content.innerHTML = "";
     content.appendChild(tab());
     currentTab = tab.name;
+    console.log(currentTab);
   }
 }
 
@@ -31,7 +32,7 @@ function createTabButtons(tabs) {
 }
 
 const header = document.createElement("header");
-createTabButtons([home, menu, about]).forEach((tab) => {
+createTabButtons([home, menu, contact]).forEach((tab) => {
   header.appendChild(tab);
 });
 

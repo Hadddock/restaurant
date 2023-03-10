@@ -16,7 +16,7 @@ export default function menu() {
     <div class="menu-item">
       <img
         src="${fish}"
-        alt=""
+        alt="fish"
       />
       <div class="vertical-line"></div>
       <div class="item-name">Synergy Salmon</div>
@@ -26,7 +26,7 @@ export default function menu() {
     <div class="menu-item">
       <img
         src="${water}"
-        alt=""
+        alt="water bottle"
       />
       <div class="vertical-line"></div>
       <div class="item-name">Water (Bottled Edition)</div>
@@ -36,7 +36,7 @@ export default function menu() {
     <div class="menu-item">
       <img
         src="${cube}"
-        alt=""
+        alt="cube"
       />
       <div class="vertical-line"></div>
       <div class="item-name">Basic Food Unit A</div>
@@ -46,7 +46,7 @@ export default function menu() {
     <div class="menu-item">
       <img
         src="${smoothie}"
-        alt=""
+        alt="smoothie"
       />
       <div class="vertical-line"></div>
       <div class="item-name">Agile Shake</div>
@@ -56,7 +56,7 @@ export default function menu() {
     <div class="menu-item">
     <img
       src="${apple}"
-      alt=""
+      alt="apple"
     />
     <div class="vertical-line"></div>
     <div class="item-name">An Apple</div>
@@ -66,7 +66,7 @@ export default function menu() {
     <div class="menu-item">
       <img
         src="${dogfood}"
-        alt=""
+        alt="dog food"
       />
       <div class="vertical-line"></div>
       <div class="item-name">Dog food</div>

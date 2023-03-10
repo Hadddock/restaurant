@@ -6,9 +6,10 @@ body {
   height: 100vh;
   display: grid;
   color: white;
-  grid-template-rows: 0.6fr 1fr 0.4fr;
+  grid-template-rows: 0.6fr 1fr 1.4fr;
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  background-color: black;
 }
 
 header {
@@ -16,18 +17,26 @@ header {
   display: flex;
   justify-content: space-around;
   min-height: 70px;
-  max-height: 140px;
+  max-height: 180px;
   align-items: center;
+}
+#content {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  border: 0;
 }
 
 footer {
   display: flex;
   flex-direction: column;
+  align-self: flex-end;
   justify-content: center;
   background-color: rgb(29, 29, 29);
   color: rgb(255, 255, 255);
-  max-height: 100px;
-
+  max-height: 160px;
+  min-height: 60px;
+  justify-items: flex-end;
   align-items: center;
 }
 

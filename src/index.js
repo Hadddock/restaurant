@@ -1,6 +1,6 @@
 import "./style.scss";
 import home from "./home.js";
-import about from "./about.js";
+import about from "./contact.js";
 import menu from "./menu.js";
 
 const content = document.createElement("div");

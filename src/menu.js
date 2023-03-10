@@ -69,7 +69,7 @@ export default function menu() {
         alt="dog food"
       />
       <div class="vertical-line"></div>
-      <div class="item-name">Dog food</div>
+      <div class="item-name">Dog Food</div>
       <div class="item-description">Has your dog jumped into the back of your car and refuses to leave? Make them an offer they can't refuse, some dog food.</div>
       <div class="item-price">16.99</div>
     </div>

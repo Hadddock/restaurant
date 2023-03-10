@@ -25,6 +25,7 @@ footer {
   justify-content: center;
   background-color: rgb(29, 29, 29);
   color: rgb(255, 255, 255);
+  max-height: 100px;
 
   align-items: center;
 }
@@ -90,7 +91,6 @@ footer {
   margin: 0;
   border: 0;
   padding: 0;
-
   width: 100vw;
 }
 
@@ -196,6 +196,34 @@ footer {
       .item-price {
         text-align: right;
       }
+    }
+  }
+}
+
+#contact {
+  display: grid;
+  grid-template-rows: 1fr 1fr 6fr;
+
+  h1 {
+    font-size: 3em;
+    justify-self: center;
+  }
+  h2 {
+    justify-self: center;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 10%;
+    padding: 50px;
+    list-style: none;
+    font-size: 2em;
+    justify-self: center;
+    background-color: #44566dc4;
+
+    a {
+      color: white;
     }
   }
 }

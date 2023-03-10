@@ -8,7 +8,7 @@ content.id = "content";
 let currentTab = "home";
 
 const footer = document.createElement("footer");
-footer.innerHTML = "<div>© Justin Haddock</div>";
+footer.innerHTML = `<div>© BUSINESS FOODS ${new Date().getFullYear()}</div>`;
 
 function selectTab(tab) {
   if (tab.name !== currentTab) {

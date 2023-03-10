@@ -29,7 +29,7 @@ export default function menu() {
         alt=""
       />
       <div class="vertical-line"></div>
-      <div class="item-name">Water (Bottled)</div>
+      <div class="item-name">Water (Bottled Edition)</div>
       <div class="item-description">Offered on entry. It's almost complimentary.</div>
       <div class="item-price">0.99</div>
     </div>

@@ -23,6 +23,7 @@ function createTabButtons(tabs) {
   const tabButtons = [];
   tabs.forEach((tab) => {
     const currentButton = document.createElement("button");
+    currentButton.classList.add("header-button");
     currentButton.textContent =
       tab.name.charAt(0).toUpperCase() + tab.name.slice(1);
     currentButton.addEventListener("click", selectTab.bind(this, tab));

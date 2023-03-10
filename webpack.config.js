@@ -12,7 +12,8 @@ module.exports = {
   devtool: "source-map",
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Development",
+      title: "Business Foods",
+      favicon: "./src/b.png",
     }),
   ],
   devServer: {

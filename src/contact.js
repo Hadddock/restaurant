@@ -1,4 +1,4 @@
-export default function about() {
+export default function contact() {
   const contact = document.createElement("div");
   contact.classList.add("tab");
   contact.id = "contact";

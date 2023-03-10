@@ -20,7 +20,7 @@ export default function menu() {
       />
       <div class="vertical-line"></div>
       <div class="item-name">Synergy Salmon</div>
-      <div class="item-description">A fish that is guaranteed to have been caught by two fishermen that were friends.</div>
+      <div class="item-description">A fish guaranteed to have been caught by two fishermen that were friends.</div>
       <div class="item-price">10.99</div>
     </div>
     <div class="menu-item">
@@ -54,6 +54,16 @@ export default function menu() {
       <div class="item-price">23.99</div>
     </div>
     <div class="menu-item">
+    <img
+      src="${apple}"
+      alt=""
+    />
+    <div class="vertical-line"></div>
+    <div class="item-name">An Apple</div>
+    <div class="item-description">Both red and delicious. A favorite of the most famous business person of all, Issac Newton.</div>
+    <div class="item-price">19.99</div>
+  </div>
+    <div class="menu-item">
       <img
         src="${dogfood}"
         alt=""
@@ -63,16 +73,7 @@ export default function menu() {
       <div class="item-description">Has your dog jumped into the back of your car and refuses to leave? Make them an offer they can't refuse, some dog food.</div>
       <div class="item-price">16.99</div>
     </div>
-    <div class="menu-item">
-      <img
-        src="${apple}"
-        alt=""
-      />
-      <div class="vertical-line"></div>
-      <div class="item-name">An Apple</div>
-      <div class="item-description">Both red and delicious. A favorite of the most famous business person of all, Issac Newton.</div>
-      <div class="item-price">19.99</div>
-    </div>
+   
   </div>
   
 `;

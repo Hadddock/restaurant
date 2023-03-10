@@ -50,7 +50,7 @@ export default function menu() {
       />
       <div class="vertical-line"></div>
       <div class="item-name">Agile Shake</div>
-      <div class="item-description">A smoothie composed of mystrey materials. After finishing, you design the details of the shake for the next customer.</div>
+      <div class="item-description">A smoothie composed of mystery materials. After finishing, you design the details of the shake for the next customer.</div>
       <div class="item-price">23.99</div>
     </div>
     <div class="menu-item">

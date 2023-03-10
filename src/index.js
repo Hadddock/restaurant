@@ -5,13 +5,22 @@ import menu from "./menu.js";
 
 const content = document.createElement("div");
 content.id = "content";
-let currentTab = "home";
+let currentTab;
 
 const footer = document.createElement("footer");
 footer.innerHTML = `<div>© BUSINESS FOODS ${new Date().getFullYear()}</div>`;
 
 function selectTab(tab) {
   if (tab.name !== currentTab) {
+    header.childNodes.forEach((node) => {
+      if (node.textContent.toLowerCase() === tab.name) {
+        node.classList.add("active");
+        console.log("FOUND!");
+      } else {
+        node.classList.remove("active");
+        console.log(node);
+      }
+    });
     content.innerHTML = "";
     content.appendChild(tab());
     currentTab = tab.name;
@@ -29,6 +38,7 @@ function createTabButtons(tabs) {
     currentButton.addEventListener("click", selectTab.bind(this, tab));
     tabButtons.push(currentButton);
   });
+  currentTab = tabButtons[0];
   return tabButtons;
 }
 

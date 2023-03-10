@@ -1,7 +1,7 @@
 export default function about() {
-  const home = document.createElement("div");
-  home.classList.add("tab");
-  home.innerHTML = `
+  const contact = document.createElement("div");
+  contact.classList.add("tab");
+  contact.innerHTML = `
     <div class="tab hidden" id="contact">
       <h1>Contact Info</h1>
       <h2>Reach out to us, preferably about business</h2>
@@ -16,7 +16,5 @@ export default function about() {
     </div>
   </div>
   `;
-
-  console.log("about");
-  return home;
+  return contact;
 }

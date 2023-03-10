@@ -198,6 +198,9 @@ footer {
       .item-price {
         text-align: right;
       }
+      .item-price::before {
+        content: " $";
+      }
     }
   }
 }
